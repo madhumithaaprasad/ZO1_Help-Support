@@ -1,0 +1,45 @@
+name: flutter_projects
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.8.0-265.0.dev <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  url_launcher: ^6.2.5
+  google_fonts: ^6.2.1   # ✅ Added Google Fonts package
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_svg: ^2.0.7
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: CormorantGaramond
+      fonts:
+        - asset: assets/fonts/CormorantGaramond[wght].ttf
+        - asset: assets/fonts/CormorantGaramond-Italic[wght].ttf
+
+    - family: Georgia   # ✅ Added Georgia font
+      fonts:
+        - asset: assets/fonts/CormorantGaramond[wght].ttf
+        - asset: assets/fonts/CormorantGaramond-Italic[wght].ttf
+
+
+  assets:
+    - assets/images/z01logo.png
+    - assets/images/light.png
+
+
+
+
+
